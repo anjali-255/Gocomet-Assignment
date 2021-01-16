@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrape Data From Medium</title>
+</head>
+<body>
+    <center>
+        <h2>Scrape Data from Medium</h2>
+        <form method="post" action="">
+            {% csrf_token %}
+            <input type="text" name="topic" placeholder="Search Your Topic...">
+            <input type="submit" value="Scrape...">
+        </form>
+    </center>
+</body>
+</html>
